@@ -13,12 +13,18 @@ td {
   text-align: center;
 }
 
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .board {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 #zero {
@@ -85,4 +91,14 @@ body {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+}
+.gameplay {
+  font-size: 2rem;
+}
+
+.gameplay-btn {
+  width: 5rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
