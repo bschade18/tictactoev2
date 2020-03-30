@@ -70,7 +70,7 @@ h1 {
 }
 
 body {
-  background-image: url("https://testdrive-archive.azurewebsites.net/performance/chalkboard/Images/EmptyChalkboard.svg");
+  background: #346b31;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
